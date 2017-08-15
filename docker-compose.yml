@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  soulema:
+    container_name: soulema
+    image: leecade/soulema
+    ports:
+        - "8898:80"
